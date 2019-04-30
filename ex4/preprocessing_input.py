@@ -5,7 +5,7 @@
 # Python 3
 
 # Usage:
-# python(3) preprocessing_input.py -i [input_file] -o [output_file]
+# python(3) preprocessing_input.py [-i input_file] [-o output_file]
 
 import codecs
 import os
@@ -28,7 +28,7 @@ def preprocess_text(input_filename, output_filename):
     lines = [line.strip().lower() for line in lines if line.strip() != ""]
     
     # tokenize each line with spacy and join tokens again
-    # new section for 2nd training
+    # this is the new section I added for the 2nd training
     lines_tok = []
     for line in lines:
         doc = nlp(line)
