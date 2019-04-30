@@ -28,7 +28,7 @@ Im zweiten Training habe ich dann die doppelte Menge genommen, also 200'000 Zeil
 
 **Hyperparameter**
 
-Um das Resultat des ersten Trainings zu überprüfen, habe ich bereits ein paar Zeilen Text mit dem Sprachmodell generiert. Das Ergebnis war bereits erstaunlich gut! Deshalb habe ich für das zweite Training nicht viel verändert. Nur die Epochen habe ich von 10 auf 25 gesetzt. Dies birgt die Gefahr Overfiting zu betreiben, jedoch ist die Zahl nicht übertrieben hoch und ist zum Teil auch Standard bei anderen RNN-Trainings.
+Um das Resultat des ersten Trainings zu überprüfen, habe ich bereits ein paar Zeilen Text mit dem Sprachmodell generiert. Das Ergebnis war schon erstaunlich gut! Deshalb habe ich für das zweite Training nicht viel verändert. Nur die Epochen habe ich von 10 auf 25 gesetzt. Dies birgt die Gefahr Overfitting zu betreiben, jedoch ist die Zahl nicht übertrieben hoch und ist zum Teil auch Standard bei anderen RNN-Trainings.
 
 Diese Änderung konnte ich leicht im Kommandozeilenbefehl vornehmen, z.B.:
 
