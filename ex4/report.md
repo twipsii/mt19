@@ -38,7 +38,7 @@ Ansonsten habe ich die Standard-Hyperparameter verwendet. Hier eine Auflistung a
 
 - VOCAB_SIZE = 10000
 - BATCH_SIZE = 64
-- NUM_EPOCHS = 25 (anstatt 10)
+- **NUM_EPOCHS = 25** (anstatt 10)
 - NUM_STEPS = 100
 - LEARNING_RATE = 0.001
 - HIDDEN_SIZE = 1024
